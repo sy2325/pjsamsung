@@ -1,0 +1,168 @@
+@charset "utf-8";
+@import url("//fonts.googleapis.com/earlyaccess/notosanskr.css");
+
+body {
+  padding-top: 80px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.inner {
+  width: 1280px;
+  margin: auto;
+}
+header {
+  position: relative;
+  width: 100%;
+}
+.header {
+  position: fixed;
+  background: rgb(0 102 179 / 90%);
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+.logo {
+  padding-top: 13px;
+  float: left;
+}
+.logo img {
+  width: 87px;
+  height: 54px;
+}
+.gnb ul li {
+  float: left;
+  padding: 10px 0;
+  margin-right: 47px;
+  width: 150px;
+  text-align: center;
+}
+.gnb ul li a {
+  letter-spacing: -1px;
+  font-size: 20px;
+  line-height: 60px;
+  display: block;
+  font-weight: 600;
+  color: #fff;
+}
+.main_banner {
+  height: 785px;
+  text-align: center;
+  background: #151f2f;
+  vertical-align: top;
+}
+.text {
+  background: #121a26/ 90%;
+  width: 100%;
+  font-size: 38px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+}
+.banner1 p {
+  text-align: center;
+  margin: 28px 0;
+}
+.box h2 {
+  font-size: 24px;
+  color: #0064b2;
+  font-weight: 600;
+  float: left;
+}
+.box h2 {
+  margin-bottom: 20px;
+}
+.box p {
+  color: #5a5a5a;
+}
+.ban_txt {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 15px 0 5px;
+}
+.sub_txt {
+  font-size: 14px;
+  color: #5a5a5a;
+}
+.box1,
+.box2,
+.box3 {
+  width: 390px;
+  float: left;
+}
+.box2 {
+  margin: 0 54px;
+  font-size: 14px;
+}
+.social {
+  width: 1280px;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-bottom: 80px;
+}
+.social ul li {
+  width: 320px;
+  float: left;
+}
+.social h2 {
+  font-size: 24px;
+  color: #0064b2;
+  font-weight: 600;
+  margin: 75px 0 20px;
+}
+/* .social_photo li {
+  border: 5px solid transparent;
+  box-sizing: border-box;
+}
+.social_photo li:hover {
+  border: 5px solid #ff0;
+} */
+.more {
+  margin: 82px auto 82px auto;
+  text-align: center;
+  width: 264px;
+}
+.shopping {
+  margin-bottom: 67px;
+}
+footer {
+  height: 130px;
+  padding: 52px 0 20px 0;
+  border-top: 1px solid #ebeaec;
+  color: #717171;
+}
+.foot_logo {
+  width: 89px;
+  height: 57px;
+  float: left;
+}
+.foot_Menu {
+  float: left;
+}
+.left {
+  width: 1000px;
+}
+.left ul {
+  margin-bottom: 12px;
+}
+.left ul li {
+  float: left;
+}
+.left ul li a {
+  padding-right: 20px;
+  font-size: 14px;
+}
+.left ul li:first-child {
+  margin-left: 35px;
+  color: #0064b2;
+}
+address {
+  margin-left: 34px;
+  font-size: 12px;
+  font-style: normal;
+}
+.right {
+  float: right;
+}
